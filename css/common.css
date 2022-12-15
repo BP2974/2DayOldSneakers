@@ -139,7 +139,7 @@ h1 {
 }
 .menu1 .cover.active {
     margin-left: 0;
-    padding-left: calc(100vw * 500 / 1920);
+    padding-left: calc(100vw * 650 / 1920);
     opacity: 100%;
     mix-blend-mode: luminosity;
 }
@@ -159,7 +159,7 @@ h1 {
 }
 .menu2 .cover.active {
     margin-left: 0;
-    padding-left: calc(100vw * 520 / 1920);
+    padding-left: calc(100vw * 700 / 1920);
     opacity: 100%;
     mix-blend-mode: luminosity;
 }
@@ -179,7 +179,7 @@ h1 {
 }
 .menu3 .cover.active {
     margin-left: 0;
-    padding-left: calc(100vw * 480 / 1920);
+    padding-left: calc(100vw * 640 / 1920);
     opacity: 100%;
     mix-blend-mode: luminosity;
 }
@@ -199,7 +199,7 @@ h1 {
 }
 .menu4 .cover.active {
     margin-left: 0;
-    padding-left: calc(100vw * 410 / 1920);
+    padding-left: calc(100vw * 580 / 1920);
     opacity: 100%;
     mix-blend-mode: luminosity;
 }
