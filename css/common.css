@@ -98,11 +98,8 @@ h1 {
 .menu.active {
     margin-left: 0;
 }
-.menu h3 {
-    font-size: 48px;
-    margin: 100px 0;
-}
-.menu img {
+.menu .cover {
+    display: inline;
     position: absolute;
     top: 0;
     left: 0%;
@@ -133,10 +130,18 @@ h1 {
     background: #E4004E;
     margin-left: 100vw;
 }
-.menu1 img {
-    margin-left: -250px;
-    margin-top: 150px;
+.menu1 .cover {
+    margin-left: calc(100vw * -250 / 1920);
+    padding-top: calc(100vw * 150 / 1920);
     opacity: 70%;
+    transition: all .5s;
+    mix-blend-mode: normal;
+}
+.menu1 .cover.active {
+    margin-left: 0;
+    padding-left: calc(100vw * 500 / 1920);
+    opacity: 100%;
+    mix-blend-mode: luminosity;
 }
 .menu.active .menu1 {
     margin-left: 0;
@@ -145,50 +150,107 @@ h1 {
 .menu2 {
     background: #EF7508;
 }
-.menu2 img {
-    margin-left: -220px;
-    margin-top: 200px;
+.menu2 .cover {
+    margin-left: calc(100vw * -220 / 1920);
+    padding-top: calc(100vw * 200 / 1920);
     opacity: 70%;
+    transition: all .5s;
+    mix-blend-mode: normal;
 }
-.menu.active .menu1 {
+.menu2 .cover.active {
+    margin-left: 0;
+    padding-left: calc(100vw * 520 / 1920);
+    opacity: 100%;
+    mix-blend-mode: luminosity;
+}
+.menu.active .menu2 {
     margin-left: 0;
     transition: all 1s;
 }
 .menu3 {
     background: #FCCC00;
+    mix-blend-mode: normal;
 }
-.menu3 img {
-    margin-left: -250px;
-    margin-top: 200px;
+.menu3 .cover {
+    margin-left: calc(100vw * -250 / 1920);
+    padding-top: calc(100vw * 200 / 1920);
     opacity: 70%;
+    transition: all .5s;
 }
-.menu.active .menu1 {
+.menu3 .cover.active {
+    margin-left: 0;
+    padding-left: calc(100vw * 480 / 1920);
+    opacity: 100%;
+    mix-blend-mode: luminosity;
+}
+.menu.active .menu3 {
     margin-left: 0;
     transition: all 1s;
 }
 .menu4 {
     background: #008950;
+    mix-blend-mode: normal;
 }
-.menu4 img {
-    margin-left: -300px;
-    margin-top: 100px;
+.menu4 .cover {
+    margin-left: calc(100vw * -300 / 1920);
+    padding-top: calc(100vw * 100 / 1920);
     opacity: 70%;
+    transition: all .5s;
+}
+.menu4 .cover.active {
+    margin-left: 0;
+    padding-left: calc(100vw * 410 / 1920);
+    opacity: 100%;
+    mix-blend-mode: luminosity;
+}
+.menu.active .menu4 {
+    margin-left: 0;
+    transition: all 1s;
 }
 .album {
+    position: relative;
     display: none;
-    opacity: 0;
-    margin-right: 100px;
+    width: calc(100vw * 800 / 1920);
+    margin-top: calc(100vw * 120 / 1920);
+    font-size: calc(100vw * 20 / 1920);
+    color: rgba(71, 71, 71, 0.527);
 }
-
 .album.active {
     display: block;
-    opacity: 1;
     position: absolute;
-    left: 55%;
+    left: calc(100vw * 100 / 1920);
+}
+.album h3 {
+    font-size: calc(100vw * 48 / 1920);
+    margin-bottom: calc(100vw * 30 / 1920);
+    color: #000;
+}
+.btn_pause {
+    position: absolute;
+    top: calc(100vw * 6 / 1920);
+    right: 0;
+    width: calc(100vw * 48 / 1920);
+    height: calc(100vw * 48 / 1920);
+    margin-left: 0;
+    margin-top: 0;
+    z-index: 10;
+    cursor: pointer;
+}
+.album p {
+    font-size: calc(100vw * 20 / 1920);
+    margin-bottom: calc(100vw * 40 / 1920);
+    color: #000;
 }
 .album li {
-    font-size: 24px;
-    margin-bottom: 20px;
+    font-size: calc(100vw * 30 / 1920);
+    margin-bottom: calc(100vw * 10 / 1920);
+    padding-bottom: calc(100vw * 10 / 1920);
+    padding-left: calc(100vw * 10 / 1920);
+    border-bottom: #000 solid calc(100vw * 1 / 1920);
+    color: #000;
+}
+.album li:last-child {
+    margin-bottom: calc(100vw * 20 / 1920);
 }
 
 
