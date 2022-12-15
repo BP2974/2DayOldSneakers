@@ -268,7 +268,7 @@ footer h2{
 }
 .footer_content{
     position: absolute;
-    top: calc(100vw * 70 / 1920);
+    top: calc(100vw * 120 / 1920);
     width: calc(100vw * 1600 / 1920);
     height: calc(100vw * 250 / 1920);
     display: flex;
