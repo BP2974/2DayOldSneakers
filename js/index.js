@@ -86,12 +86,12 @@ $(document).ready(function(){
 
     }
 
-
-    /* 슬라이드 이미지 추가 */
+/* 
+    슬라이드 이미지 추가 
     for(let i = 0; i <= 4; i++){
         $('.slide').append(`<div><img src='./img/slide${i+1}.jpg'</div>`)
     }
-
+ */
 
     /* 슬릭 */
     $('.slide').slick({
