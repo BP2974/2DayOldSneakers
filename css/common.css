@@ -211,8 +211,8 @@ h1 {
     position: relative;
     display: none;
     width: calc(100vw * 800 / 1920);
-    margin-top: calc(100vw * 120 / 1920);
-    font-size: calc(100vw * 20 / 1920);
+    margin-top: calc(100vw * 100 / 1920);
+    font-size: calc(100vw * 16 / 1920);
     color: rgba(71, 71, 71, 0.527);
 }
 .album.active {
@@ -221,13 +221,13 @@ h1 {
     left: calc(100vw * 100 / 1920);
 }
 .album h3 {
-    font-size: calc(100vw * 48 / 1920);
-    margin-bottom: calc(100vw * 30 / 1920);
+    font-size: calc(100vw * 40 / 1920);
+    margin-bottom: calc(100vw * 40 / 1920);
     color: #000;
 }
 .btn_pause {
     position: absolute;
-    top: calc(100vw * 6 / 1920);
+    top: 0;
     right: 0;
     width: calc(100vw * 48 / 1920);
     height: calc(100vw * 48 / 1920);
@@ -237,12 +237,12 @@ h1 {
     cursor: pointer;
 }
 .album p {
-    font-size: calc(100vw * 20 / 1920);
+    font-size: calc(100vw * 18 / 1920);
     margin-bottom: calc(100vw * 40 / 1920);
     color: #000;
 }
 .album li {
-    font-size: calc(100vw * 30 / 1920);
+    font-size: calc(100vw * 22 / 1920);
     margin-bottom: calc(100vw * 10 / 1920);
     padding-bottom: calc(100vw * 10 / 1920);
     padding-left: calc(100vw * 10 / 1920);
