@@ -2,6 +2,8 @@
     height: 260vh;
     z-index: -1;
     position: relative;
+    padding-top: calc(100vw * 800 / 1920);
+    background: #F8F6FB;
 }
 #title img {
     width: 100vw;
